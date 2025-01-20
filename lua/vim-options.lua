@@ -29,5 +29,12 @@ end)
 -- install xclip before using it
 vim.keymap.set({"v"}, "<C-y>", '"+y')
 
+-- move between split windows
+vim.keymap.set("n", "<leader>j", "<C-w>j")
+vim.keymap.set("n", "<leader>k", "<C-w>k")
+vim.keymap.set("n", "<leader>l", "<C-w>l")
+vim.keymap.set("n", "<leader>h", "<C-w>h")
 
+-- recording apply
+vim.keymap.set("n", "<C-L>", "@q")
 
